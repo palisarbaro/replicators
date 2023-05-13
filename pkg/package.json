@@ -1,0 +1,19 @@
+{
+  "name": "replicators",
+  "collaborators": [
+    "Andrey Kolesin <kolesin.work@gmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "replicators_bg.wasm",
+    "replicators.js",
+    "replicators_bg.js",
+    "replicators.d.ts"
+  ],
+  "module": "replicators.js",
+  "types": "replicators.d.ts",
+  "sideEffects": [
+    "./replicators.js",
+    "./snippets/*"
+  ]
+}
